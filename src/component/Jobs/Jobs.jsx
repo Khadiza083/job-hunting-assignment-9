@@ -11,21 +11,15 @@ const Jobs = ({ jobs }) => {
 
             </div>
             <div className='grid grid-cols-2 gap-6'>
-                {
-                    showAll ?
-                        jobs.map(job => <Job
-                            key={job.id}
-                            job={job}
-                        ></Job>)
-                        : jobs.slice(0,4).map(job => <Job
-                            key={job.id}
-                            job={job}
-                        ></Job>)
-                }
+                {showAll
+                    ? jobs.map((job) => <Job job={job} />)
+                    : jobs
+                        .slice(0, 4)
+                        .map((job) => <Job job={job} />)}
             </div>
 
             <div className='mt-4 text-center'>
-                {!showAll&&<button onClick={() =>setShowAll(true)} className="btn bg-purple-500">Show All</button>}
+                {!showAll && <button onClick={() => setShowAll(true)} className="btn bg-purple-500">Show All</button>}
             </div>
 
         </div>
