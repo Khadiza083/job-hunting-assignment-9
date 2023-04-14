@@ -1,4 +1,4 @@
-import { faCalculator } from '@fortawesome/free-solid-svg-icons';
+import { faCalculator, faCalendarAlt, faEnvelope, faLocationArrow, faLocationCrosshairs, faLocationPin, faMessage, faPhone, faSackDollar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
@@ -33,12 +33,12 @@ const JobDetails = () => {
                 <div>
                     <div className='category p-8 grid gap-4'>
                         <h1 className='text-xl font-semibold border-b border-gray-400'>Job Details</h1>
-                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faCalculator}></FontAwesomeIcon>Salary: </span>{salary}</p>
-                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faCalculator}></FontAwesomeIcon>Job Title: </span>{job_title}</p>
+                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faSackDollar}></FontAwesomeIcon>Salary: </span>{salary}</p>
+                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faCalendarAlt}></FontAwesomeIcon>Job Title: </span>{job_title}</p>
                         <h1 className='text-xl font-semibold border-b border-gray-400'>Contact Information</h1>
-                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faCalculator}></FontAwesomeIcon>Phone: </span>{phone}</p>
-                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faCalculator}></FontAwesomeIcon>Email: </span>{email}</p>
-                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faCalculator}></FontAwesomeIcon>Address: </span>{address}</p>
+                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faPhone}></FontAwesomeIcon>Phone: </span>{phone}</p>
+                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faEnvelope}></FontAwesomeIcon>Email: </span>{email}</p>
+                        <p className='text-lg leading-8'><span className='font-semibold'><FontAwesomeIcon className=' text-[#9f7aea] text-xl mr-2' icon={faLocationPin}></FontAwesomeIcon>Address: </span>{address}</p>
                     </div>
                     <div className="btn-ghost text-white btn w-full bg-purple-500 mt-6">
                         <button onClick={handleJob}>Apply Now</button>
