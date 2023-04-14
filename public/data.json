@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "job_title": "Software Engineer",
+      "company_name": "XYZ Tech",
+      "company_logo": "./../src/assets/google.png",
+      "salary": "$80,000 - $100,000 per year",
+      "location": "San Francisco, CA",
+      "job_type": "Full-time"
+    },
+    {
+      "id": 2,
+      "job_title": "Data Scientist",
+      "company_name": "ABC Analytics",
+      "company_logo": "./../src/assets/netflix.png",
+      "salary": "$90,000 - $120,000 per year",
+      "location": "New York, NY",
+      "job_type": "Remote"
+    },
+    {
+      "id": 3,
+      "job_title": "Front-end Developer",
+      "company_name": "DEF Web Solutions",
+      "company_logo": "./../src/assets/google.png",
+      "salary": "$70,000 - $90,000 per year",
+      "location": "Chicago, IL",
+      "job_type": "Contract"
+    },
+    {
+      "id": 4,
+      "job_title": "Cloud Engineer",
+      "company_name": "GHI Cloud Services",
+      "company_logo": "./../src/assets/google.png",
+      "salary": "$100,000 - $120,000 per year",
+      "location": "Seattle, WA",
+      "job_type": "Full-time"
+    },
+    {
+      "id": 5,
+      "job_title": "Cybersecurity Analyst",
+      "company_name": "JKL Security Solutions",
+      "company_logo": "./../src/assets/google.png",
+      "salary": "$80,000 - $100,000 per year",
+      "location": "Washington, D.C.",
+      "job_type": "Remote"
+    },
+    {
+      "id": 6,
+      "job_title": "DevOps Engineer",
+      "company_name": "MNO TechOps",
+      "company_logo": "./../src/assets/google.png",
+      "salary": "$90,000 - $110,000 per year",
+      "location": "Austin, TX",
+      "job_type": "Full-time"
+    }
+  ]
+  
