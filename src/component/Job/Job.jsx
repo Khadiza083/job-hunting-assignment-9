@@ -17,8 +17,7 @@ const Job = ({ job }) => {
                 </h2>
                 <p>{company_name}</p>
                 <div className="card-actions text-purple-500">
-                    <div className="badge badge-outline p-4">Remote</div>
-                    <div className="badge badge-outline p-4">Full-time</div>
+                    <div className="badge badge-outline p-4">{job_type}</div>
                 </div>
                 <div className='flex w-[400px]'>
                     <p><FontAwesomeIcon className='mr-2' icon={faLocation}></FontAwesomeIcon>{location}</p>

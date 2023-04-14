@@ -12,10 +12,10 @@ const Jobs = ({ jobs }) => {
             </div>
             <div className='grid grid-cols-2 gap-6'>
                 {showAll
-                    ? jobs.map((job) => <Job job={job} />)
+                    ? jobs.map((job) => <Job job={job} key={job.id} />)
                     : jobs
                         .slice(0, 4)
-                        .map((job) => <Job job={job} />)}
+                        .map((job) => <Job job={job}  key={job.id}/>)}
             </div>
 
             <div className='mt-4 text-center'>

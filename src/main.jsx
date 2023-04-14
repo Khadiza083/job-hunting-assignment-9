@@ -9,6 +9,7 @@ import Statistics from './component/Satistics/Statistics'
 import Blog from './component/Blog/Blog'
 import AppliedJobs from './component/Applied/AppliedJobs'
 import JobDetails from './component/JobDetails/JobDetails'
+import NotFound from './component/NotFound/NotFound'
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
           const findJob = jobs.find(job => job.id == params.jobId)
           return (findJob);
         }
+      },
+      {
+        path:"*",
+        element:<NotFound></NotFound>
       }
       
     ]
