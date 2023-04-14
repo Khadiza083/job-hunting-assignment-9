@@ -6,7 +6,7 @@ import './Category.css'
 const Category = () => {
     return (
         <div >
-            <div className='text-center'>
+            <div className='text-center mt-20'>
                 <h1 className='text-5xl font-semibold mb-4'>Job Category List</h1>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
