@@ -1,10 +1,13 @@
 import { faLocation, faSackDollar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Job = ({ job }) => {
     // console.log(job);
-    const { company_logo, company_name, job_title, salary, location, job_type } = job
+    const { id, company_logo, company_name, job_title, salary, location, job_type } = job
+    // console.log(id);
     return (
         <div className=''>
             <div className="card  border-2 bg-white py-10">
@@ -23,7 +26,7 @@ const Job = ({ job }) => {
                         <p><FontAwesomeIcon className='mr-2' icon={faSackDollar}></FontAwesomeIcon>{salary}</p>
                     </div>
                     <div className='mt-4'>
-                        <button className="btn bg-purple-500">View Details</button>
+                        <button className="btn bg-purple-500"><Link to={`/job/${id}`}> View Details</Link></button>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@ const Jobs = ({ jobs }) => {
                             key={job.id}
                             job={job}
                         ></Job>)
-                        : jobs.slice(0, 4).map(job => <Job
+                        : jobs.slice(0,4).map(job => <Job
                             key={job.id}
                             job={job}
                         ></Job>)

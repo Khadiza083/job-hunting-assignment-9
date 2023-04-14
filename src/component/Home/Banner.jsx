@@ -2,7 +2,7 @@ import React from 'react';
 import picture1 from './../../assets/picture1.png'
 const Banner = () => {
     return (
-        <div className='my-20'>
+        <div className='py-20 bg-[#F4F4F4]'>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col gap-1 lg:flex-row-reverse">
                     <img src={picture1} className="rounded-lg" />

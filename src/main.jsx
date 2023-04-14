@@ -8,6 +8,7 @@ import Home from './component/Home/Home'
 import Statistics from './component/Satistics/Statistics'
 import Blog from './component/Blog/Blog'
 import AppliedJobs from './component/Applied/AppliedJobs'
+import JobDetails from './component/JobDetails/JobDetails'
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,18 @@ const router = createBrowserRouter([
       {
         path: '/blogs',
         element: <Blog></Blog>
+      },
+      {
+        path: '/job/:jobId',
+        element: <JobDetails></JobDetails>,
+        loader: async({params}) =>{
+          const res = await fetch('/data.json');
+          const jobs = await res.json();
+          const findJob = jobs.find(job => job.id == params.jobId)
+          return (findJob);
+        }
       }
+      
     ]
   }
 ])

@@ -1,57 +1,103 @@
 [
-    {
-      "id": 1,
-      "job_title": "Software Engineer",
-      "company_name": "XYZ Tech",
-      "company_logo": "./../src/assets/google.png",
-      "salary": "$80,000 - $100,000 per year",
-      "location": "San Francisco, CA",
-      "job_type": "Full-time"
-    },
-    {
-      "id": 2,
-      "job_title": "Data Scientist",
-      "company_name": "ABC Analytics",
-      "company_logo": "./../src/assets/netflix.png",
-      "salary": "$90,000 - $120,000 per year",
-      "location": "New York, NY",
-      "job_type": "Remote"
-    },
-    {
-      "id": 3,
-      "job_title": "Front-end Developer",
-      "company_name": "DEF Web Solutions",
-      "company_logo": "./../src/assets/google.png",
-      "salary": "$70,000 - $90,000 per year",
-      "location": "Chicago, IL",
-      "job_type": "Contract"
-    },
-    {
-      "id": 4,
-      "job_title": "Cloud Engineer",
-      "company_name": "GHI Cloud Services",
-      "company_logo": "./../src/assets/google.png",
-      "salary": "$100,000 - $120,000 per year",
-      "location": "Seattle, WA",
-      "job_type": "Full-time"
-    },
-    {
-      "id": 5,
-      "job_title": "Cybersecurity Analyst",
-      "company_name": "JKL Security Solutions",
-      "company_logo": "./../src/assets/google.png",
-      "salary": "$80,000 - $100,000 per year",
-      "location": "Washington, D.C.",
-      "job_type": "Remote"
-    },
-    {
-      "id": 6,
-      "job_title": "DevOps Engineer",
-      "company_name": "MNO TechOps",
-      "company_logo": "./../src/assets/google.png",
-      "salary": "$90,000 - $110,000 per year",
-      "location": "Austin, TX",
-      "job_type": "Full-time"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "job_title": "Software Engineer",
+    "company_name": "XYZ Tech",
+    "company_logo": "./../src/assets/google.png",
+    "salary": "$80,000 - $100,000 per year",
+    "location": "San Francisco, CA",
+    "job_type": "Full-time",
+    "job_description": "We are looking for a talented and experienced software developer to join our team. The successful candidate will be responsible for designing, coding, testing, debugging, and documenting software applications using languages such as Java, C++, or Python. The software developer will also collaborate with cross-functional teams to analyze end-users requirements and tailor software solutions accordingly.",
+    "job_responsibilities": 
+      "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "phone": "+1 (555) 123-4567",
+    "email": "example@example.com",
+    "address": "1234 Main Street, Anytown, USA",
+    "experience": "Minimum of 3 years of professional software development experience, including hands-on experience with one or more programming languages such as Java, C++, Python, or JavaScript. Experience with web development frameworks, databases, version control systems, and software development methodologies is a plus."
+  },
+  {
+    "id": 2,
+    "job_title": "Data Scientist",
+    "company_name": "ABC Analytics",
+    "company_logo": "./../src/assets/netflix.png",
+    "salary": "$90,000 - $120,000 per year",
+    "location": "New York, NY",
+    "job_type": "Remote",
+    "job_description": "We are looking for a talented and experienced software developer to join our team. The successful candidate will be responsible for designing, coding, testing, debugging, and documenting software applications using languages such as Java, C++, or Python. The software developer will also collaborate with cross-functional teams to analyze end-users requirements and tailor software solutions accordingly.",
+    "job_responsibilities": 
+      "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "phone": "+1 (555) 123-4567",
+    "email": "example@example.com",
+    "address": "1234 Main Street, Anytown, USA",
+    "experience": "Minimum of 3 years of professional software development experience, including hands-on experience with one or more programming languages such as Java, C++, Python, or JavaScript. Experience with web development frameworks, databases, version control systems, and software development methodologies is a plus."
+  },
+  {
+    "id": 3,
+    "job_title": "Front-end Developer",
+    "company_name": "DEF Web Solutions",
+    "company_logo": "./../src/assets/google.png",
+    "salary": "$70,000 - $90,000 per year",
+    "location": "Chicago, IL",
+    "job_type": "Contract",
+    "job_description": "We are looking for a talented and experienced software developer to join our team. The successful candidate will be responsible for designing, coding, testing, debugging, and documenting software applications using languages such as Java, C++, or Python. The software developer will also collaborate with cross-functional teams to analyze end-users requirements and tailor software solutions accordingly.",
+    "job_responsibilities": 
+      "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "phone": "+1 (555) 123-4567",
+    "email": "example@example.com",
+    "address": "1234 Main Street, Anytown, USA",
+    "experience": "Minimum of 3 years of professional software development experience, including hands-on experience with one or more programming languages such as Java, C++, Python, or JavaScript. Experience with web development frameworks, databases, version control systems, and software development methodologies is a plus."
+  },
+  {
+    "id": 4,
+    "job_title": "Cloud Engineer",
+    "company_name": "GHI Cloud Services",
+    "company_logo": "./../src/assets/google.png",
+    "salary": "$100,000 - $120,000 per year",
+    "location": "Seattle, WA",
+    "job_type": "Full-time",
+    "job_description": "We are looking for a talented and experienced software developer to join our team. The successful candidate will be responsible for designing, coding, testing, debugging, and documenting software applications using languages such as Java, C++, or Python. The software developer will also collaborate with cross-functional teams to analyze end-users requirements and tailor software solutions accordingly.",
+    "job_responsibilities": 
+      "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "phone": "+1 (555) 123-4567",
+    "email": "example@example.com",
+    "address": "1234 Main Street, Anytown, USA",
+    "experience": "Minimum of 3 years of professional software development experience, including hands-on experience with one or more programming languages such as Java, C++, Python, or JavaScript. Experience with web development frameworks, databases, version control systems, and software development methodologies is a plus."
+  },
+  {
+    "id": 5,
+    "job_title": "Cybersecurity Analyst",
+    "company_name": "JKL Security Solutions",
+    "company_logo": "./../src/assets/google.png",
+    "salary": "$80,000 - $100,000 per year",
+    "location": "Washington, D.C.",
+    "job_type": "Remote",
+    "job_description": "We are looking for a talented and experienced software developer to join our team. The successful candidate will be responsible for designing, coding, testing, debugging, and documenting software applications using languages such as Java, C++, or Python. The software developer will also collaborate with cross-functional teams to analyze end-users requirements and tailor software solutions accordingly.",
+    "job_responsibilities": 
+      "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "phone": "+1 (555) 123-4567",
+    "email": "example@example.com",
+    "address": "1234 Main Street, Anytown, USA",
+    "experience": "Minimum of 3 years of professional software development experience, including hands-on experience with one or more programming languages such as Java, C++, Python, or JavaScript. Experience with web development frameworks, databases, version control systems, and software development methodologies is a plus."
+  },
+  {
+    "id": 6,
+    "job_title": "DevOps Engineer",
+    "company_name": "MNO TechOps",
+    "company_logo": "./../src/assets/google.png",
+    "salary": "$90,000 - $110,000 per year",
+    "location": "Austin, TX",
+    "job_type": "Full-time",
+    "job_description": "We are looking for a talented and experienced software developer to join our team. The successful candidate will be responsible for designing, coding, testing, debugging, and documenting software applications using languages such as Java, C++, or Python. The software developer will also collaborate with cross-functional teams to analyze end-users requirements and tailor software solutions accordingly.",
+    "job_responsibilities": 
+      "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or a related field.",
+    "phone": "+1 (555) 123-4567",
+    "email": "example@example.com",
+    "experience": "Minimum of 3 years of professional software development experience, including hands-on experience with one or more programming languages such as Java, C++, Python, or JavaScript. Experience with web development frameworks, databases, version control systems, and software development methodologies is a plus."
+  }
+]
