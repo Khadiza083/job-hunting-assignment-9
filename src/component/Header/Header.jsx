@@ -9,15 +9,15 @@ const Header = () => {
                     
                     <h3 className="normal-case text-2xl font-semibold">Job Hunting</h3>
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-lg font-medium">
+                <div className="lg:flex ">
+                    <ul className="md:flex md:gap-14  px-1 text-sm font-medium">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/statistics'>Statistics</Link></li>
                         <li><Link to='/appliedjobs'>Applied Jobs</Link></li>
                         <li><Link to='/blogs'>Blog</Link></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end ml-12">
                     <a className="btn bg-purple-500">Start Applying</a>
                 </div>
             </div>
